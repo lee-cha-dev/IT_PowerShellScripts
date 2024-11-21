@@ -154,4 +154,8 @@ function ListCommands(){
 }
 
 $pc = Read-Host "[Zoom Upgrade]`nEnter The Host Name"
+while([string]::IsNullOrWhiteSpace($pc)){
+    Write-Host "Hostname cannot be empty" -Foreground Red
+    $pc = Read-Host "[Zoom Upgrade]`nEnter The Host Name"
+}
 UpgradeZoom $pc
