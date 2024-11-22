@@ -99,8 +99,6 @@ function AdminRightsHelper(){
         return 
     }
 
-    $DomainName = "UAMS\$DomainName"
-
     try {    # check if user exists
         $userCheck = NET USER $DomainName /DOMAIN 2>&1
         if ($LASTEXITCODE -ne 0){
