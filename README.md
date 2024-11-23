@@ -1,19 +1,36 @@
+---
+
 # IT_PowerShellScripts
 
-## StandAlone
+## Overview
+This repository contains PowerShell scripts designed for IT tasks, including automation of repetitive processes, accessing Active Directory, and remotely managing user computers. These scripts are categorized as **StandAlone** or **Load Into Profile** for different use cases.
 
-- Basic scripts to run as stand alone
-- This is more for sharing than personal use.
+---
+
+## StandAlone
+- Basic scripts intended for individual, stand-alone execution.
+- Primarily shared for educational and collaborative purposes, rather than for personal day-to-day use.
+
+---
 
 ## Load Into Profile
+- Core scripts used daily to streamline IT operations.
+- Automates predictable or time-consuming tasks.
+- Integrated into the user profile via a lightweight snippet:
+  - Automatically loads child scripts into the PowerShell shell.
+  - Logs success or failure for each script.
+  - Initialization takes ~20–30 seconds, but once PowerShell is open, commands execute instantly.
+  - This method is more workflow-friendly compared to invoking standalone `.ps1` scripts.
 
-- These are the primary scripts that I use in day to day IT tasks.
-- In the process of automating most tasks that are predictable or take up unnecessary time.
-- I upload these using a small snippet placed into the user profile.
-  - It more or less just grabs the child elements and loads them into the shell.
-  - Logging success/failure per file.
-  - Takes ~20-30 seconds, but if the PowerShell is left open the commands kick off without delay
-  - I find this is much more efficient than calling a PS1 script - that tends to break my workflow
+---
 
-**USE AT YOUR OWN RISK -- THESE SCRIPTS ARE ABSOLUTELY NOT MEANT TO BE EXECUTED WITHOUT A GOOD REVIEW OF THE CODE & EXPLICIT PERMISSION FROM ALL PARTIES**
-- Some of the scripts access the Active Directory and the majority of them will access another user's computer remotely.
+## Important Disclaimer
+**USE AT YOUR OWN RISK**  
+These scripts are **not intended for execution without a thorough review** of the code and **explicit permission** from all relevant parties.  
+
+- Some scripts access **Active Directory**.
+- The majority involve remote access to other users' computers.  
+
+By using these scripts, you agree to take full responsibility for their implementation and comply with all applicable laws and organizational policies.
+
+---
