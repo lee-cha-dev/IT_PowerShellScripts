@@ -1,3 +1,7 @@
+# Important to note that there is a decent amount of code repeating
+# This is because passing a reference to another device will fail, as
+# the other device will NOT have the function in memory to complete the reference.
+
 function Downloads(){
     $downloads =
         "DownloadVMWare",
