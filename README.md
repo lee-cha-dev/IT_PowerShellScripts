@@ -1,7 +1,3 @@
-Here’s a draft README for your PowerShell project, based on the contents of the uploaded script:
-
----
-
 # LoadIntoProfile - PowerShell IT Automation Scripts
 
 ## Overview
@@ -71,7 +67,3 @@ This project is licensed for personal and educational use only. Commercial use i
 All Rights Reserved.  
 
 Redistribution, modification, or inclusion in proprietary works is strictly prohibited without explicit permission.
-
----
-
-Let me know if there’s anything else you’d like to add or adjust!
