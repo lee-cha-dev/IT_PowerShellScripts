@@ -46,7 +46,7 @@ function ParseJson {
             Write-Host "`nRightFax Path: $path" -ForegroundColor Cyan
             Write-Host "Installer Path: $installer" -ForegroundColor Cyan
             Write-Host "Document Path: $doc" -ForegroundColor Cyan
-            Write-Host "Server Name: CampusFaxS1`n" -ForegroundColor Cyan
+            Write-Host "Server Name: Server1`n" -ForegroundColor Cyan
          }
          "SAS" {
             $path = $installPaths.SAS.path
@@ -74,7 +74,7 @@ function ParseJson {
             Write-Host "`nMitel Path: $path" -ForegroundColor Cyan
             Write-Host "Installer Path: $installer" -ForegroundColor Cyan
             Write-Host "Document Path: $doc" -ForegroundColor Cyan
-            Write-Host "Server Name: unified4.uams.edu`n" -ForegroundColor Cyan
+            Write-Host "Server Name: ServerName2`n" -ForegroundColor Cyan
          }
         Default {
             Write-Host "No installs by that name..try one of the following:`n"
