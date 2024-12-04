@@ -80,6 +80,22 @@ This project is licensed for personal and educational use only. Commercial use i
 - **Liability**: The author is not responsible for any damage, data loss, or other issues arising from use or misuse of the scripts.
 - **Assumptions**: It is assumed that users have a mid-to-senior level software engineering skillset.
 
+## Note
+- It is important to **note** that the 'Installs.ps1' file will be unique to each user. This will require creating a .json file with the data needed and updating the 'Installs.ps1' file for each install that needs assistance.
+  - Create a json file
+       ```powershell
+           {
+            "RightFax":
+                {
+                    "path": "path\to\main\dir",
+                    "installer": "path\to\installer",
+                    "doc": "path\to\InstallInstructions"
+                }
+            }
+       ```
+  - Update the switch statement in 'Installs.ps1'
+  - Add in a function (at the bottom of 'Installs.ps1') for the specific install so that it can be called from PowerShell using the app name.
+
 ## License
 
 © 2024 Lee Charles  
