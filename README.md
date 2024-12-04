@@ -32,10 +32,18 @@ The **LoadIntoProfile** project provides a comprehensive suite of PowerShell scr
 3. **Set Development Path**:
    - Update the `$DevPath` variable in the script to point to your local `LoadIntoProfile` folder.
 4. **Run the Loader**:
-   - Execute the main script to dynamically load all modules:  
-     ```powershell
-     .\LoadIntoProfile.ps1
-     ```
+   - Execute the main script to dynamically load all modules:
+     - Edit the user profile
+       ```powershell
+       notepad $PROFILE
+       ```
+     - or get the path for it and open in another IDE
+      ```powershell
+      $PROFILE 
+      ```
+     
+     - In your profile insert the code from profile.ps1 or call the profile.ps1 directly to load in the scripts
+     - Be sure to update the dev path so that it can find the "LoadIntoProfile" directory
 5. **Execute Functions**:
    - Use the provided functions interactively or incorporate them into larger workflows.
 

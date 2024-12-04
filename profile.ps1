@@ -15,7 +15,7 @@
 # Purpose: IT Tier 1/2 task automation.
 
 # Vars & Data that cannot be uploaded to GitHub (ensure sanitization by creating a var here)
-$DevPath="C:\Users\charleskristopher\Box\Personal\dev\PowerShellScripts\LoadIntoProfile"
+$DevPath="path\to\project\PowerShellScripts\LoadIntoProfile"
 Write-Host "Dev File Path: $DevPath`n" -ForegroundColor Cyan
 
 # Mount profile scripts for quick execution later
