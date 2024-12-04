@@ -171,5 +171,5 @@ function rebootdevice($HostName){
 }   
 
 function ListCommands(){
-    Write-Host "InstallSnippingTool -HostName`nUpdgradeZoom -HostName`nGet-Uptime`nGet-DiskSpace -HostName`nGet-LoggedIn`nrebootdevice -HostName`nAdminRights -HostName -DomainName`nCleanDevice -HostName`nGet-Hardware -HostName`nUnlockAccount -DomainName`n"
+    Write-Host "InstallSnippingTool -HostName`nUpdgradeZoom -HostName`nGet-Uptime`nGet-DiskSpace -HostName`nGet-LoggedIn`nrebootdevice -HostName`nAdminRights -HostName -DomainName`nCleanDevice -HostName`nGet-Hardware -HostName`nUnlockAccount -DomainName`nCopyFile -HostName -DomainName -FileName`n"
 }
