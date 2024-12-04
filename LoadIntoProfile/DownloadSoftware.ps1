@@ -92,7 +92,7 @@ function DownloadGlobalProtect(){
             try {
                 Write-Host "GlobalProtect Downloading.." -ForegroundColor Blue | Out-Host
                 $webClient = New-Object System.Net.WebClient
-                $webClient.DownloadFile("https://remote2.uams.edu/global-protect/getmsi.esp?version=64&platform=windows", $installer)
+                $webClient.DownloadFile("URL.COM/installer.exe", $installer)
                 Write-Host "GlobalProtect has been downloaded.`n" -ForegroundColor Green
 
                 if (Test-Path $installer){
@@ -104,7 +104,7 @@ function DownloadGlobalProtect(){
             }
             catch {
                 Write-Host "Error downloading GlobalProtect: $($_.Exception.Message)" -ForegroundColor Red | Out-Host
-                Write-Host "Find the download at: https://remote2.uams.edu/global-protect/getmsi.esp?version=64&platform=windows" -ForegroundColor Cyan
+                Write-Host "Find the download at: URL.COM/installer.exe" -ForegroundColor Cyan
             }
             Write-Host ("-" * ([math]::Floor($Host.UI.RawUI.WindowSize.Width/5) * 2 + 20)) | Out-Host  
         }

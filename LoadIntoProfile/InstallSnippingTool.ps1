@@ -21,7 +21,7 @@ function InstallSnippingTool {
         [string[]]$HostNames
     )
 
-    $InstallerPath = "\\DIT0317\C`$\Users\charleskristopher\Downloads\Snipping Tool Installer.exe"
+    $InstallerPath = "path\to\installer\Snipping Tool Installer.exe"
 
     foreach ($pc in $HostNames) {
         try {
