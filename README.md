@@ -38,9 +38,10 @@ The **LoadIntoProfile** project provides a comprehensive suite of PowerShell scr
        notepad $PROFILE
        ```
      - or get the path for it and open in another IDE
-      ```powershell
-      $PROFILE 
-      ```
+       ```powershell
+       $PROFILE
+       ```
+          
      
      - In your profile insert the code from profile.ps1 or call the profile.ps1 directly to load in the scripts
      - Be sure to update the dev path so that it can find the "LoadIntoProfile" directory
