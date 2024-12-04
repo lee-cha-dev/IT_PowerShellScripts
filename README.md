@@ -1,4 +1,4 @@
-# LoadIntoProfile - PowerShell IT Automation Scripts
+# PowerShell IT Automation Scripts
 
 ## Overview
 
