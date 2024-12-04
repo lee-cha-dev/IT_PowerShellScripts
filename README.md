@@ -50,26 +50,27 @@ The **LoadIntoProfile** project provides a comprehensive suite of PowerShell scr
 
 ## Key Functions
 
-| **Function**            | **Description**                                                                  |
-|-------------------------|----------------------------------------------------------------------------------|
-| `DownloadVMWare`        | Downloads and installs VMware Horizon Client on the specified host.              |
+| **Function**            | **Description**                                                                |
+|-------------------------|--------------------------------------------------------------------------------|
+| `DownloadVMWare`        | Downloads and installs VMware Horizon Client on the specified host.            |
 | `DownloadGlobalProtect` | Downloads and installs Palo Alto GlobalProtect VPN client on the specified host. |
-| `DownloadAdobeAcrobat`  | Downloads and installs Adobe Acrobat Reader on the specified host.               |
-| `InstallSnippingTool`   | Installs the Snipping Tool on the specified host.                                |
-| `UpgradeZoom`           | Upgrades Zoom client by uninstalling the old version and installing the latest.  |
-| `Get-Uptime`            | Retrieves the system uptime for the current or specified host.                   |
-| `Get-DiskSpace`         | Displays available disk space on the specified host.                             |
-| `Get-LoggedIn`          | Retrieves the currently logged-in user for the specified host.                   |
-| `RebootDevice`          | Initiates a reboot of the specified host.                                        |
+| `DownloadAdobeAcrobat`  | Downloads and installs Adobe Acrobat Reader on the specified host.             |
+| `InstallSnippingTool`   | Installs the Snipping Tool on the specified host.                              |
+| `UpgradeZoom`           | Upgrades Zoom client by uninstalling the old version and installing the latest. |
+| `Get-Uptime`            | Retrieves the system uptime for the current or specified host.                 |
+| `Get-DiskSpace`         | Displays available disk space on the specified host.                           |
+| `Get-LoggedIn`          | Retrieves the currently logged-in user for the specified host.                 |
+| `RebootDevice`          | Initiates a reboot of the specified host.                                      |
 | `AdminRights`           | Checks or modifies administrative rights for the specified host and domain user. |
-| `CleanDevice`           | Frees up disk space by cleaning temporary files, caches, and logs on the host.   |
-| `Get-Hardware`          | Retrieves detailed hardware information from the specified host.                 |
-| `UnlockAccount`         | Unlocks an Active Directory user account.                                        |
-| `RightFax`              | Provides installation assistance for the RightFax application.                   |
-| `SAS`                   | Provides installation assistance for the SAS software.                           |
-| `SPSS`                  | Provides installation assistance for the SPSS software.                          |
-| `Mitel`                 | Provides installation assistance for the Mitel application.                      |
-| `list`                  | Provides a comprehensive list of commands to call & arguments required.         |
+| `CleanDevice`           | Frees up disk space by cleaning temporary files, caches, and logs on the host. |
+| `Get-Hardware`          | Retrieves detailed hardware information from the specified host.               |
+| `UnlockAccount`         | Unlocks an Active Directory user account.                                      |
+| `RightFax`              | Provides installation assistance for the RightFax application.                 |
+| `SAS`                   | Provides installation assistance for the SAS software.                         |
+| `SPSS`                  | Provides installation assistance for the SPSS software.                        |
+| `Mitel`                 | Provides installation assistance for the Mitel application.                    |
+| `CopyFile`              | Copies a file (located in path) to a specified host.                           |
+| `list`                  | Provides a comprehensive list of commands to call & arguments required.        |
 
 ## Disclaimer
 
