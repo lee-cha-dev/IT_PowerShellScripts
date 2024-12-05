@@ -1,0 +1,21 @@
+Project Structure (generated on 2024-12-05 17:39:20.039102):
+
+IT_PowerShellScripts/
+├── LoadIntoProfile/
+│   ├── CleanDevice.ps1
+│   ├── CopyFile.ps1
+│   ├── DownloadSoftware.ps1
+│   ├── GetHardware.ps1
+│   ├── InstallSnippingTool.ps1
+│   ├── Installs.ps1
+│   ├── ProfileFunctions.ps1
+│   ├── UnlockAccount.ps1
+│   ├── UpgradeZoom.ps1
+│   └── install_paths.json
+├── README.md
+├── StandAlone/
+│   ├── UpgradeZoom.ps1
+│   └── clear_temp_data.ps1
+├── profile.ps1
+├── structure/
+│   └── project_structure.txt
